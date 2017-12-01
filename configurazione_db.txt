@@ -1,0 +1,1 @@
+CREATE TABLE `android`.`utenti` ( `username` VARCHAR(30) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL , `password` VARCHAR(30) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL , `tipo_utente` VARCHAR(2) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL , UNIQUE `username` (`username`(30))) ENGINE = InnoDB;
